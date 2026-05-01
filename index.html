@@ -5,9 +5,8 @@
 <meta name="viewport"
 content="width=device-width,
 initial-scale=1.0">
-<title>Fotografía profesional para eventos en Veracruz | RECUERDOS</title>
-<meta name="description" content="Servicios profesionales de fotografía para maternidad, retratos de bebé, fiestas infantiles, bautizos, XV años, bodas, eventos culturales y eventos empresariales en veracruz. Capturamos para siempre tus recuerdos mas importantes.">
-<meta name="keywords" content="Sesiones fotograficas en Veracruz, Todo tipo de eventos, bautizo, XV años, bodas">
+<title>RECUERDOS-FOTOGRAFÍA | sesiones y eventos en Veracruz</title>
+<meta name="description" content="Servicios profesionales de fotografía en Veracruz para maternidad, retratos de bebé, fiestas infantiles, bautizos, XV años, bodas, eventos culturales y eventos empresariales en veracruz. Capturamos momentos únicos con calidad y emoción.">
 <meta name="author" content="José Vite">
 <meta property="og:title"
 content="Recuerdos Fotografía">
@@ -15,10 +14,11 @@ content="Recuerdos Fotografía">
 content="Fotografía profesional para eventos en Veracruz">
 <meta property="og:type"
 content="website">
-<meta property="og:image"
-content="https://tusitio.com/perfiljosevite.jpg">
+<meta property="og:url"
+content="https://graanhotdog-ops.github.io/recuerdos-fotografia/perfiljosevite.jpg">
 <script type="application/ld+json"> 
   {
+    "url": https://graanhotdog-ops.github.io/recuerdos-fotografia/
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Recuerdos Fotografía",
@@ -101,11 +101,34 @@ content="https://tusitio.com/perfiljosevite.jpg">
   }
   
   .galeria {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
+    gap: 25px;
   }
+  
+  .galeria article {
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+  }
+    
+  .galeria article:hover {
+    transform: translateY(-8px);
+  }
+  
+  .galeria img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+  }
+  
+  .galeria p {
+    padding: 0 20px 20px;
+    line-height: 1.6;
+  }
+  
   
   figure {
     background: white;
@@ -121,7 +144,6 @@ content="https://tusitio.com/perfiljosevite.jpg">
   
   img {
     width: 100%;
-    max-width: 250px;
     border-radius: 10px;
   }
   
@@ -192,7 +214,7 @@ content="https://tusitio.com/perfiljosevite.jpg">
   
     <header>
      <h1>Recuerdos Fotografía</h1>
-     <p><em>Fotografia profesional para todo tipo de eventos en Veracruz</em></p>
+     <p><em>Fotografía profesional para todo tipo de eventos en Veracruz</em></p>
     </header>
     
 
@@ -211,147 +233,126 @@ content="https://tusitio.com/perfiljosevite.jpg">
         <p>No dejes que tus momentos especiales se pierdan. Nosotros los hacemos eternos</p>
       </section>
       
+      <article>
+        <p>Llevamos varios años capturando emociones reales en Veracruz. Fotografía profesional y atención personalizada para cada momento especial.</p>
+        <p><strong>Capturamos momentos únicos con calidad y emoción</strong></p>
+      </article>
+       
+      <section>
+        <h2>Agenda tu sesión hoy mismo</h2>
+         <p><strong>Disponibilidad limitada para fechas especiales. <em>Reserva con anticipación.</em></strong></p>
+        
+        <p>
+          <a href="https://wa.me/522295260691" class="boton" target="_blank" rel="noopener noreferrer">Envia whatsapp</a>
+        </p>
+        
+        <p>
+         <a
+         href="https://www.instagram.com/jvg_fotos?igsh=empuZDlkNDc3YTh0" class="boton" target="_blank" rel="noopener noreferrer">Ver portafolio en instagram</a>
+          </p>
+        
+      </section>
+      
       
       <section id="portafolio">
         <h2><strong><em>Portafolio</em></strong></h2>
+        
         <div class="galeria">
         
+      <article>
       <figure>
         <img src="IMG-20231030-WA0115.jpg" alt="Sesión fotográfica de mujer embarazada en el malecon de Veracruz" 
         loading="lazy">
         <figcaption>Maternidad</figcaption>
       </figure>
-        
+        <p>Estaremos pendientes desde su formación, hasta el primer día de su llegada</p>
+      </article>
+      
+      <article>
       <figure>
         <img src="caritasdesofy.jpg" alt="Retrato de caritas de bebé"
         loading="lazy">
         <figcaption>Caritas de bebé</figcaption>
       </figure>
+        <p>Guarda para siempre una de las etapas más bonita de su vida, ya sea que vayamos a tu hogar o el lugar donde tu nos indiques</p> 
+      </article>
         
+      <article>
       <figure>
         <img src="animadoras.jpg" alt="Animadoras de fiestas infantiles"
         loading="lazy">
         <figcaption>Fiestas infantiles</figcaption>
        </figure>
+        <p>Cubrimos toda su fiesta desde el recibimiento de invitados y regalos, hasta la partida de piñata y la partida de pastel</p>
+       </article>
         
+       <article>
         <figure>
           <img src="sofybautizo.jpg" alt="Niña bautizada en la iglesia"
           loading="lazy">
           <figcaption>Bautizos</figcaption>
         </figure>
+          <p>Cubrimos la ceremonia en la iglesia y la fiesta con tus invitados</p>
+        </article>
         
+        <article>
         <figure>
           <img src="xvyessi.jpg" alt="Sesión fotográfica de quinceañera"
           loading="lazy">
           <figcaption>XV años</figcaption>
         </figure>
+         <p>Cubrimos la ceremonia en la iglesia y la fiesta con tus invitados. Y si lo prefieres podemos acompañarte en tu peinado y maquillaje, para después tomarte una sesión personal en la locación de tu preferencia</p>
+        </article>
         
+        <article>
         <figure>
-          <img src="bodahijoderosy.jpg" alt="Sesión fotográfica de pareja recien casada"
+          <img src="bodahijoderosy.jpg" alt="Sesión fotográfica de pareja recién casada"
           loading="lazy">
           <figcaption>Bodas</figcaption>
         </figure>
+          <p>Además de acompañarte a la iglesia y en la fiesta con tus invitados, estaremos pendientes de todos esos momentos especiales hasta la tradición del liguero</p>
+        </article>
         
+        <article>
         <figure>
           <img src="eventocultural.jpg" alt="Evento cultural de son jarocho"
           loading="lazy">
-          <figcaption>Eventos artisticos</figcaption>
+          <figcaption>Eventos artísticos</figcaption>
         </figure>
+         <p>Cubrimos todo tu evento, hasta la foto de recuerdo con tu público en el área de patrocinadores</p>
+        </article>
         
+        <article>
         <figure>
           <img src="eventoprestigio.jpg" alt="imagen del evento de una empresa"
           loading="lazy">
           <figcaption>Eventos empresariales</figcaption>
         </figure>
+         <p>Conferencias, posadas navideñas, aniversarios cócteles de presentación; etc... Nos adaptamos a tus necesidades</p>
+        </article>
       </div>
-      </section>
-      
-        
-      
-      
-      <section>
-        <h2>Agenda tu sesión hoy mismo</h2>
-         <p><strong>Agenda limitada por semana</strong></p>
-        
-        <p>
-          <a href="https://wa.me/522295260691" class="boton" target="_blank" rel="noopener noreferrer">por whatsapp</a>
-        </p>
-        
-        <p>
-         <a
-         href="https://www.instagram.com/jvg_fotos?igsh=empuZDlkNDc3YTh0" class="boton" tarjet="_blank" rel="noopener noreferrer">ver por instagram</a>
-          </p>
-        
       </section>
       
 
       <section id="servicios">
         <h2>Servicios</h2>
+        <p>Sesiones personales</p>
+        <p>Eventos públicos y particulares</p>
+        </section>
         
-      <article>
-        <h3><em>Maternidad</em></h3>
-        <p>Estaremos pendientes desde su formación, hasta el primer día de su llegada</p>
-      </article>
-      
-      <article>
-        <h3><em>Caritas de bebé</em></h3>
-        <p>Guarda para siempre una de las etapas más bonita de su vida, ya sea que vayamos a tu hogar o el lugar donde tu nos indiques</p>
-      </article>
-      
-      <article>
-        <h3><em>Fiestas infantiles</em></h3>
-        <p>Cubrimos toda su fiesta desde el recibiento de invitados y regalos, hasta la partida de piñata y la partida de pastel</p>
-        </article>
-        
-        
-        <article>
-          <h3><em>Bautizos</em></h3>
-          <p>Cubrimos la ceremonia en la iglesia y la fiesta con tus invitados</p>
-        </article>
-        
-        <article>
-          <h3>XV años</h3>
-          <p>Cubrimos la ceremonia en la iglesia y la fiesta con tus invitados. Y si lo prefieres podemos acompañarte en tu peinado y maquillaje, para después tomarte una sesion personal en la locación de tu preferencia</p>
-        </article>
-        
-        <article>
-          <h3><em>Bodas</em></h3>
-          <p>Además de acompañarte a la iglesia y en la fiesta con tus invitados, estaremos pendientes de todos esos momentos especiales hasta la tradición del liguero</p>
-        </article>
-        
-        <article>
-          <h3><em>Graduaciones</em></h3>
-          <p>Guardaremos ese momento tan importante cuando te entregan tu titulo y te acompañamos en la celebración</p>
-        </article>
-        
-        <article>
-          <h3><em>Eventos artisticos</em></h3>
-          <p>Cubrimos todo tu evento, hasta la foto de recuerdo con tu público en el area de patrocinadores</p>
-        </article>
-        
-        
-        <article>
-          <h3><em>Eventos empresariales</em></h3>
-          <p>Conferencias, posadas navideñas, aniversarios cócteles de presentación; etc... Nos adaptamos a tus necesidades</p>
-        </article>
-        
-      
-      </section>
       
       <hr>
  
       <section id="contacto">
         <h2>Contáctanos</h2>
-        <p>Telefono <em>2295 26 06 91</em></p>
+        <p>Teléfono <em>2295 26 06 91</em></p>
         
         <p>
-          <a href="https://wa.me/522295260691" class="boton" target="_blank" rel="noopener noreferrer">Whatsapp</a>
+          <a href="https://wa.me/522295260691" class="boton" target="_blank" rel="noopener noreferrer">Solicitar información por Whatsapp</a>
         </p>
             
-        <a href="https://www.instagram.com/jvg_fotos?igsh=empuZDlkNDc3YTh0" class="boton" rel="noopener noreferrer">Instagram
+        <a href="https://www.instagram.com/jvg_fotos?igsh=empuZDlkNDc3YTh0" class="boton" target="_blank" rel="noopener noreferrer">Ver portafolio en Instagram
          </a>
-         
-         <br>
          
          <figure>
           <img src="perfiljosevite.jpg" alt="José Vite"
@@ -361,11 +362,11 @@ content="https://tusitio.com/perfiljosevite.jpg">
       </section>
       
       <footer>
-        <p>&copy; 2026 RECUERDOS. fotografia digital. Todos los derechos reservados</p>
+        <p>&copy; 2026 RECUERDOS. fotografía digital. Todos los derechos reservados</p>
       </footer>
       
       </main>
  
     </body>
     
-  </html>
+</html>
